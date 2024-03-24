@@ -1,0 +1,19 @@
+.profile-image {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  width: 300px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 50%; /* Makes the image circular */
+  border: 4px solid #fff; /* Optional: Add a border around the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+
+  @media screen and (max-width: 768px) {
+    /* Adjust position for smaller screens */
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    transform: none;
+  }
+}
