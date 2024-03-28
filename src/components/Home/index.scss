@@ -77,3 +77,58 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  /* Styles for smaller screens */
+  .home-page .text-zone {
+    transform: translateY(-80%);
+    width: calc(100% - 80px); /* Make it full width */
+    max-width: 75%; /* Limit width to 80% of the viewport */
+    margin: 0 auto; /* Center align */
+    padding: 0 20px; /* Add padding for better readability */
+    margin-left: 20px; /* Add left margin to move it more to the right */
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: 20px;
+      opacity: 0.6;
+    }
+
+    &::after {
+      content: '</h1>';
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+  }
+
+  h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .flat-button {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .logo-container {
+    width: 80px;
+    top: 20px;
+  }
+}

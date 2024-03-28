@@ -69,12 +69,6 @@ const About = () => {
                 Familiarity with cloud services such as AWS EC2, RDS, and EB
               </li>
             </ul>
-            <br />
-            These competencies enable me to effectively collaborate with teams
-            and deliver high-quality solutions across various domains of
-            software engineering. I am excited about the opportunity to
-            contribute to innovative projects and make a meaningful impact in an
-            internship role.
           </p>
         </div>
 

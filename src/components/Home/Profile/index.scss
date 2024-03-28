@@ -9,8 +9,33 @@
   border: 4px solid #fff; /* Optional: Add a border around the image */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
 
+  @media screen and (max-width: 1200px) {
+    width: 250px; /* Reduce the width for medium-sized screens */
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    transform: none;
+  }
+
+  @media screen and (max-width: 992px) {
+    width: 200px; /* Reduce the width for tablets and smaller screens */
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    transform: none;
+  }
+
   @media screen and (max-width: 768px) {
-    /* Adjust position for smaller screens */
+    width: 150px; /* Reduce the width for smaller screens */
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    transform: none;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 120px; /* Further reduce the width for mobile devices */
+    border-width: 2px; /* Reduce border thickness */
     top: auto;
     bottom: 20px;
     right: 20px;
